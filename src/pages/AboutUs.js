@@ -6,7 +6,7 @@ function AboutUsPage() {
             <div className='my-5' />
             <div className='responsive-about google-fonts-roboto' style={{ textAlign: 'center' }}>
                 {/* Image in the center */}
-                <img src="/profile.jpg" alt="profile" style={{ width: '5', height: '5', margin: '0px auto' }} />
+                <img src="/friends.jpg" alt="profile" style={{ width: '5', height: '5', margin: '0px auto' }} />
                 
                 {/* Some descriptive text below the image */}
                 <p style={{ marginTop: '20px', fontSize: '1.2rem' }}>
