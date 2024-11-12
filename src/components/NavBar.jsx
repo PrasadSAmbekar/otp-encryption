@@ -14,14 +14,14 @@ function MyNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-3">
             <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }}>CryptOTP</Nav.Link>
-            <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }}>Features</Nav.Link>
-            <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }}>Encrypted Storage</Nav.Link>
+            {/* <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }}>Features</Nav.Link>
+            <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }}>Encrypted Storage</Nav.Link> */}
             {/* <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }}>How it Works?</Nav.Link> */}
 
           </Nav>
-            <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }} className='mx-3'>Home</Nav.Link>
+            {/* <Nav.Link href="/" style={{ fontSize: "18px", color: "white" }} className='mx-3'>Home</Nav.Link> */}
+            <Nav.Link style={{ fontSize: "18px", color: "white" }} href="/contact" className='mx-3'>CryptCaesar</Nav.Link>
             <Nav.Link style={{ fontSize: "18px", color: "white" }} href="/about" className='mx-3'>About Us</Nav.Link>
-            <Nav.Link style={{ fontSize: "18px", color: "white" }} href="/contact" className='mx-3'>Contact Us</Nav.Link>
 
               <Button variant="light" className="mx-3" onClick={() => setLogin(true)}>
                 Login
